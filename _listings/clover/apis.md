@@ -12,11 +12,176 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "23096"
 tags: Phones
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: ' - Create a phone number for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbers-post
+  description: Creates a phone number associated to a merchant's customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbers-post-openapi.md
+- name: ' - Update a phone number for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbersphoneid-post
+  description: Updates a merchant's customer's phone number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbersphoneid-post-openapi.md
+- name: ' - Delete a customer phone number'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbersphoneid-delete
+  description: Deletes a merchant's customer's phone number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbersphoneid-delete-openapi.md
+- name: ' - Update a phone number for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbersphoneid-post
+  description: Updates a merchant's customer's phone number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbersphoneid-post-openapi.md
+- name: ' - Delete a customer phone number'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbersphoneid-delete
+  description: Deletes a merchant's customer's phone number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbersphoneid-delete-openapi.md
+- name: ' - Create a phone number for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbers-post
+  description: Creates a phone number associated to a merchant's customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbers-post-openapi.md
+- name: ' - Update a phone number for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbersphoneid-post
+  description: Updates a merchant's customer's phone number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbersphoneid-post-openapi.md
+- name: ' - Delete a customer phone number'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbersphoneid-delete
+  description: Deletes a merchant's customer's phone number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbersphoneid-delete-openapi.md
+- name: ' - Update a phone number for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbersphoneid-post
+  description: Updates a merchant's customer's phone number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbersphoneid-post-openapi.md
+- name: ' - Delete a customer phone number'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbersphoneid-delete
+  description: Deletes a merchant's customer's phone number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbersphoneid-delete-openapi.md
+- name: ' - Delete a customer phone number'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbersphoneid-delete
+  description: Deletes a merchant's customer's phone number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbersphoneid-delete-openapi.md
+- name: ' - Update a phone number for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbersphoneid-post
+  description: Updates a merchant's customer's phone number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbersphoneid-post-openapi.md
+- name: ' - Create a phone number for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbers-post
+  description: Creates a phone number associated to a merchant's customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbers-post-openapi.md
+- name: ' - Delete a customer phone number'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbersphoneid-delete
+  description: Deletes a merchant's customer's phone number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbersphoneid-delete-openapi.md
+- name: ' - Update a phone number for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridphone-numbersphoneid-post
+  description: Updates a merchant's customer's phone number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/clover/v3merchantsmidcustomerscustomeridphone-numbersphoneid-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://cloudflare.api.gallery.streamdata.io

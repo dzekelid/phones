@@ -7,11 +7,37 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/536-yelp.j
 x-kinRank: "9"
 x-alexaRank: "194"
 tags: Phones
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/yelp/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Yelp V3 - Get Businesses Search Phone
+  x-api-slug: businessessearchphone-get
+  description: Get businesses search phone.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/536-yelp.jpg
+  humanURL: http://yelp.com/engineering
+  baseURL: https://api.yelp.com//v3
+  tags: Local, Places, Business, Stack Network, Stack, Mobile, Marketplace, internet,
+    Publish, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/yelp/businessessearchphone-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/yelp/businessessearchphone-get-openapi.md
+- name: Yelp V3 - Get Businesses Search Phone
+  x-api-slug: businessessearchphone-get
+  description: Get businesses search phone.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/536-yelp.jpg
+  humanURL: http://yelp.com/engineering
+  baseURL: https://api.yelp.com//v3
+  tags: Local, Places, Business, Stack Network, Stack, Mobile, Marketplace, internet,
+    Publish, General Data, Relative Data, Service API, Pedestal
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/yelp/businessessearchphone-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/yelp/businessessearchphone-get-openapi.md
 - name: Yelp V3 - Get Businesses Search Phone
   x-api-slug: businessessearchphone-get
   description: Get businesses search phone.

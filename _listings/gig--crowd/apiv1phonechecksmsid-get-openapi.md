@@ -140,6 +140,29 @@ paths:
       - Phone
       - Check
       - Smsid
+  /api/v1/admin/user/emailAndPhone/{userId}:
+    post:
+      summary: Post Admin User Emailandphone Userid
+      description: Post admin user emailandphone userid.
+      operationId: postApiV1AdminUserEmailandphoneUser
+      x-api-path-slug: apiv1adminuseremailandphoneuserid-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: body
+        name: request
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: userId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Admin
+      - User
+      - Emailandphone
+      - Userid
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

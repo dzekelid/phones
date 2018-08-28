@@ -7,11 +7,95 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Phones
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dezrez.Rezi.Client.Api - Check for Matching groups for the given leads based
+    on contact item values i.e. Emails and Phones.
+  x-api-slug: apiinboundleadcheckformatchinggroups-get
+  description: Check for matching groups for the given leads based on contact item
+    values i.e. emails and phones..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/dezrez/apiinboundleadcheckformatchinggroups-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Normalises phone numbers for agency
+  x-api-slug: apijobnormalisephonenumbers-post
+  description: Normalises phone numbers for agency.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/dezrez/apijobnormalisephonenumbers-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Search contacts based on the phone number provided
+  x-api-slug: apipeoplesearchcontacts-post
+  description: Search contacts based on the phone number provided.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/dezrez/apipeoplesearchcontacts-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Normalises phone numbers for agency
+  x-api-slug: apijobnormalisephonenumbers-post
+  description: Normalises phone numbers for agency.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/dezrez/apijobnormalisephonenumbers-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Search contacts based on the phone number provided
+  x-api-slug: apipeoplesearchcontacts-post
+  description: Search contacts based on the phone number provided.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/dezrez/apipeoplesearchcontacts-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Check for Matching groups for the given leads based
+    on contact item values i.e. Emails and Phones.
+  x-api-slug: apiinboundleadcheckformatchinggroups-get
+  description: Check for matching groups for the given leads based on contact item
+    values i.e. emails and phones..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/dezrez/apiinboundleadcheckformatchinggroups-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Search contacts based on the phone number provided
+  x-api-slug: apipeoplesearchcontacts-post
+  description: Search contacts based on the phone number provided.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/dezrez/apipeoplesearchcontacts-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Normalises phone numbers for agency
+  x-api-slug: apijobnormalisephonenumbers-post
+  description: Normalises phone numbers for agency.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/dezrez/apijobnormalisephonenumbers-post-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez

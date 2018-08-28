@@ -12,11 +12,299 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-deve
 x-kinRank: "7"
 x-alexaRank: "7180"
 tags: Phones
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: RingCentral Connect Platform API Explorer - Get Extension Phone Number List
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidphonenumber-get
+  description: "Returns the list of phone numbers that are used by a particular extension,
+    and can be filtered by the phone number type. The returned list contains all numbers
+    which are directly mapped to a given extension plus the features and also company-level
+    numbers which may be used when performing different operations on behalf of this
+    extension.\nApp Permission\nReadAccounts\nUser Permission\nReadUserPhoneNumbers\nUsage
+    Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [usageType] value is invalid\n\n\n401\nCMN-405\nLogin
+    to extension required\n\n\n401\nOAU-151\nAuthorization method not supported\n\n\n403\nCMN-401\nIn
+    order to call this API endpoint, application needs to have [ReadAccounts] permission\n\n\n404\nCMN-102\nResource
+    for parameter [extensionId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidphonenumber-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get All Company Phone Numbers
+  x-api-slug: restapiv1-0accountaccountidphonenumber-get
+  description: "Returns the list of phone numbers assigned to RingCentral customer
+    account. Both company-level and extension-level numbers are returned.\nApp Permission\nReadAccounts\nUser
+    Permission\nReadCompanyPhoneNumbers\nUsage Plan Group\nHeavy\nError Codes\n\n
+    \n  \n   HTTP Code\n   Error Code\n   Error Message\n   \n \n\n400\nCMN-101\nParameter
+    [perPage] value is invalid\n\n\n401\nCMN-405\nLogin to extension required\n\n\n401\nOAU-151\nAuthorization
+    method not supported\n\n\n403\nCMN-401\nIn order to call this API endpoint, application
+    needs to have [ReadAccounts] permission\n\n\n404\nCMN-102\nResource for parameter
+    [accountId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0accountaccountidphonenumber-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Phone Number
+  x-api-slug: restapiv1-0accountaccountidphonenumberphonenumberid-get
+  description: "Returns the phone number(s) belonging to a certain account or extension
+    by phoneNumberId(s). Batch request is supported.\nApp Permission\nReadAccounts\nUser
+    Permission\nReadCompanyPhoneNumbers\nUsage Plan Group\nLight\nError Codes\n\n
+    \n  \n   HTTP Code\n   Error Code\n   Error Message\n   \n \n\n403\nCMN-401\nIn
+    order to call this API endpoint, application needs to have [ReadAccounts] permission\n\n\n404\nCMN-102\nResource
+    for parameter [accountId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0accountaccountidphonenumberphonenumberid-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Parse Phone Number [Beta]
+  x-api-slug: restapiv1-0numberparserparse-post
+  description: "Returns one or more parsed and/or formatted phone numbers that are
+    passed as a string.\nUsage Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n
+    \  Error Code\n   Error Message\n   \n \n\n400\nCMN-101\nParameter [nationalAsPriority]
+    value is invalid"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0numberparserparse-post-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Extension Phone Number List
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidphonenumber-get
+  description: "Returns the list of phone numbers that are used by a particular extension,
+    and can be filtered by the phone number type. The returned list contains all numbers
+    which are directly mapped to a given extension plus the features and also company-level
+    numbers which may be used when performing different operations on behalf of this
+    extension.\nApp Permission\nReadAccounts\nUser Permission\nReadUserPhoneNumbers\nUsage
+    Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [usageType] value is invalid\n\n\n401\nCMN-405\nLogin
+    to extension required\n\n\n401\nOAU-151\nAuthorization method not supported\n\n\n403\nCMN-401\nIn
+    order to call this API endpoint, application needs to have [ReadAccounts] permission\n\n\n404\nCMN-102\nResource
+    for parameter [extensionId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidphonenumber-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get All Company Phone Numbers
+  x-api-slug: restapiv1-0accountaccountidphonenumber-get
+  description: "Returns the list of phone numbers assigned to RingCentral customer
+    account. Both company-level and extension-level numbers are returned.\nApp Permission\nReadAccounts\nUser
+    Permission\nReadCompanyPhoneNumbers\nUsage Plan Group\nHeavy\nError Codes\n\n
+    \n  \n   HTTP Code\n   Error Code\n   Error Message\n   \n \n\n400\nCMN-101\nParameter
+    [perPage] value is invalid\n\n\n401\nCMN-405\nLogin to extension required\n\n\n401\nOAU-151\nAuthorization
+    method not supported\n\n\n403\nCMN-401\nIn order to call this API endpoint, application
+    needs to have [ReadAccounts] permission\n\n\n404\nCMN-102\nResource for parameter
+    [accountId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0accountaccountidphonenumber-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Phone Number
+  x-api-slug: restapiv1-0accountaccountidphonenumberphonenumberid-get
+  description: "Returns the phone number(s) belonging to a certain account or extension
+    by phoneNumberId(s). Batch request is supported.\nApp Permission\nReadAccounts\nUser
+    Permission\nReadCompanyPhoneNumbers\nUsage Plan Group\nLight\nError Codes\n\n
+    \n  \n   HTTP Code\n   Error Code\n   Error Message\n   \n \n\n403\nCMN-401\nIn
+    order to call this API endpoint, application needs to have [ReadAccounts] permission\n\n\n404\nCMN-102\nResource
+    for parameter [accountId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0accountaccountidphonenumberphonenumberid-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Parse Phone Number [Beta]
+  x-api-slug: restapiv1-0numberparserparse-post
+  description: "Returns one or more parsed and/or formatted phone numbers that are
+    passed as a string.\nUsage Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n
+    \  Error Code\n   Error Message\n   \n \n\n400\nCMN-101\nParameter [nationalAsPriority]
+    value is invalid"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0numberparserparse-post-openapi.md
+- name: RingCentral Connect Platform API Explorer - Parse Phone Number [Beta]
+  x-api-slug: restapiv1-0numberparserparse-post
+  description: "Returns one or more parsed and/or formatted phone numbers that are
+    passed as a string.\nUsage Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n
+    \  Error Code\n   Error Message\n   \n \n\n400\nCMN-101\nParameter [nationalAsPriority]
+    value is invalid"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0numberparserparse-post-openapi.md
+- name: RingCentral Connect Platform API Explorer - Parse Phone Number [Beta]
+  x-api-slug: restapiv1-0numberparserparse-post
+  description: "Returns one or more parsed and/or formatted phone numbers that are
+    passed as a string.\nUsage Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n
+    \  Error Code\n   Error Message\n   \n \n\n400\nCMN-101\nParameter [nationalAsPriority]
+    value is invalid"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0numberparserparse-post-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Phone Number
+  x-api-slug: restapiv1-0accountaccountidphonenumberphonenumberid-get
+  description: "Returns the phone number(s) belonging to a certain account or extension
+    by phoneNumberId(s). Batch request is supported.\nApp Permission\nReadAccounts\nUser
+    Permission\nReadCompanyPhoneNumbers\nUsage Plan Group\nLight\nError Codes\n\n
+    \n  \n   HTTP Code\n   Error Code\n   Error Message\n   \n \n\n403\nCMN-401\nIn
+    order to call this API endpoint, application needs to have [ReadAccounts] permission\n\n\n404\nCMN-102\nResource
+    for parameter [accountId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0accountaccountidphonenumberphonenumberid-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Phone Number
+  x-api-slug: restapiv1-0accountaccountidphonenumberphonenumberid-get
+  description: "Returns the phone number(s) belonging to a certain account or extension
+    by phoneNumberId(s). Batch request is supported.\nApp Permission\nReadAccounts\nUser
+    Permission\nReadCompanyPhoneNumbers\nUsage Plan Group\nLight\nError Codes\n\n
+    \n  \n   HTTP Code\n   Error Code\n   Error Message\n   \n \n\n403\nCMN-401\nIn
+    order to call this API endpoint, application needs to have [ReadAccounts] permission\n\n\n404\nCMN-102\nResource
+    for parameter [accountId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0accountaccountidphonenumberphonenumberid-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Phone Number
+  x-api-slug: restapiv1-0accountaccountidphonenumberphonenumberid-get
+  description: "Returns the phone number(s) belonging to a certain account or extension
+    by phoneNumberId(s). Batch request is supported.\nApp Permission\nReadAccounts\nUser
+    Permission\nReadCompanyPhoneNumbers\nUsage Plan Group\nLight\nError Codes\n\n
+    \n  \n   HTTP Code\n   Error Code\n   Error Message\n   \n \n\n403\nCMN-401\nIn
+    order to call this API endpoint, application needs to have [ReadAccounts] permission\n\n\n404\nCMN-102\nResource
+    for parameter [accountId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0accountaccountidphonenumberphonenumberid-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get All Company Phone Numbers
+  x-api-slug: restapiv1-0accountaccountidphonenumber-get
+  description: "Returns the list of phone numbers assigned to RingCentral customer
+    account. Both company-level and extension-level numbers are returned.\nApp Permission\nReadAccounts\nUser
+    Permission\nReadCompanyPhoneNumbers\nUsage Plan Group\nHeavy\nError Codes\n\n
+    \n  \n   HTTP Code\n   Error Code\n   Error Message\n   \n \n\n400\nCMN-101\nParameter
+    [perPage] value is invalid\n\n\n401\nCMN-405\nLogin to extension required\n\n\n401\nOAU-151\nAuthorization
+    method not supported\n\n\n403\nCMN-401\nIn order to call this API endpoint, application
+    needs to have [ReadAccounts] permission\n\n\n404\nCMN-102\nResource for parameter
+    [accountId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0accountaccountidphonenumber-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get All Company Phone Numbers
+  x-api-slug: restapiv1-0accountaccountidphonenumber-get
+  description: "Returns the list of phone numbers assigned to RingCentral customer
+    account. Both company-level and extension-level numbers are returned.\nApp Permission\nReadAccounts\nUser
+    Permission\nReadCompanyPhoneNumbers\nUsage Plan Group\nHeavy\nError Codes\n\n
+    \n  \n   HTTP Code\n   Error Code\n   Error Message\n   \n \n\n400\nCMN-101\nParameter
+    [perPage] value is invalid\n\n\n401\nCMN-405\nLogin to extension required\n\n\n401\nOAU-151\nAuthorization
+    method not supported\n\n\n403\nCMN-401\nIn order to call this API endpoint, application
+    needs to have [ReadAccounts] permission\n\n\n404\nCMN-102\nResource for parameter
+    [accountId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0accountaccountidphonenumber-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Extension Phone Number List
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidphonenumber-get
+  description: "Returns the list of phone numbers that are used by a particular extension,
+    and can be filtered by the phone number type. The returned list contains all numbers
+    which are directly mapped to a given extension plus the features and also company-level
+    numbers which may be used when performing different operations on behalf of this
+    extension.\nApp Permission\nReadAccounts\nUser Permission\nReadUserPhoneNumbers\nUsage
+    Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [usageType] value is invalid\n\n\n401\nCMN-405\nLogin
+    to extension required\n\n\n401\nOAU-151\nAuthorization method not supported\n\n\n403\nCMN-401\nIn
+    order to call this API endpoint, application needs to have [ReadAccounts] permission\n\n\n404\nCMN-102\nResource
+    for parameter [extensionId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidphonenumber-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Extension Phone Number List
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidphonenumber-get
+  description: "Returns the list of phone numbers that are used by a particular extension,
+    and can be filtered by the phone number type. The returned list contains all numbers
+    which are directly mapped to a given extension plus the features and also company-level
+    numbers which may be used when performing different operations on behalf of this
+    extension.\nApp Permission\nReadAccounts\nUser Permission\nReadUserPhoneNumbers\nUsage
+    Plan Group\nLight\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [usageType] value is invalid\n\n\n401\nCMN-405\nLogin
+    to extension required\n\n\n401\nOAU-151\nAuthorization method not supported\n\n\n403\nCMN-401\nIn
+    order to call this API endpoint, application needs to have [ReadAccounts] permission\n\n\n404\nCMN-102\nResource
+    for parameter [extensionId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidphonenumber-get-openapi.md
 x-common:
 - type: x-blog
   url: https://medium.com/ringcentral-developers

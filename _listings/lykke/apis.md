@@ -7,11 +7,91 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Phones
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Wallet_Api - Get API Utils Isusorcanadanumber Phonenumber
+  x-api-slug: apiutilsisusorcanadanumberphonenumber-get
+  description: Get api utils isusorcanadanumber phonenumber.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/lykke/apiutilsisusorcanadanumberphonenumber-get-openapi.md
+- name: Wallet_Api - Get API Checkmobilephone
+  x-api-slug: apicheckmobilephone-get
+  description: Get api checkmobilephone.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/lykke/apicheckmobilephone-get-openapi.md
+- name: Wallet_Api - Add API Checkmobilephone
+  x-api-slug: apicheckmobilephone-post
+  description: Add api checkmobilephone.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/lykke/apicheckmobilephone-post-openapi.md
+- name: Wallet_Api - Add API Clientphone
+  x-api-slug: apiclientphone-post
+  description: Add api clientphone.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/lykke/apiclientphone-post-openapi.md
+- name: Wallet_Api - Get API Countryphonecodes
+  x-api-slug: apicountryphonecodes-get
+  description: Get api countryphonecodes.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/lykke/apicountryphonecodes-get-openapi.md
+- name: Wallet_Api - Get API Utils Isusorcanadanumber Phonenumber
+  x-api-slug: apiutilsisusorcanadanumberphonenumber-get
+  description: Get api utils isusorcanadanumber phonenumber.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/lykke/apiutilsisusorcanadanumberphonenumber-get-openapi.md
+- name: Wallet_Api - Get API Utils Isusorcanadanumber Phonenumber
+  x-api-slug: apiutilsisusorcanadanumberphonenumber-get
+  description: Get api utils isusorcanadanumber phonenumber.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/lykke/apiutilsisusorcanadanumberphonenumber-get-openapi.md
+- name: Wallet_Api - Get API Utils Isusorcanadanumber Phonenumber
+  x-api-slug: apiutilsisusorcanadanumberphonenumber-get
+  description: Get api utils isusorcanadanumber phonenumber.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/phones/master/_listings/lykke/apiutilsisusorcanadanumberphonenumber-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://lyft.api.gallery.streamdata.io
